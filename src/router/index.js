@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'Home',
@@ -45,10 +45,14 @@ Vue.use(VueRouter)
   {
     path: '/zhangpanpan',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+
     component: () => import(/* webpackChunkName: "about" */ '../views/zhangpanpan.vue')
+  }
+  ,
+  {
+    path: '/xiaoguo',
+    name: "/xioaguo",
+    component: () => import('../views/zp02.vue')
   }
 ]
 
