@@ -43,16 +43,29 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/gongkexin.vue')
   },
   {
-    path: '/zhangpanpan',
-    name: 'About',
+    path: '/list10',
+    name: 'list10',
 
     component: () => import(/* webpackChunkName: "about" */ '../views/zhangpanpan.vue')
   }
   ,
   {
-    path: '/xiaoguo',
-    name: "/xioaguo",
+    path: '/effect04',
+    name: "/effect04",
     component: () => import('../views/zp02.vue')
+  },
+  {
+    path: '/details07',
+    name: "/details07",
+    component: () => import('../views/zp03.vue')
+  },{
+    path:'/Designer09',
+    name:'Designer',
+    component:()=>import('../views/zp04.vue')
+  },{
+    path:'/Designer12',
+    name:"Designer12",
+    component:()=>import('../views/zp05.vue')
   }
 ]
 

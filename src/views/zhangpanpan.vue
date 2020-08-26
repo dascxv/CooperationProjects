@@ -212,6 +212,7 @@
 
 <style scoped>
 .header {
+  border-bottom: .5px solid #eee;
   height: 64px;
   width: 100%;
   display: flex;

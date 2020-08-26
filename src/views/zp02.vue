@@ -94,7 +94,10 @@
     </div>
 
     <div class="content">
-      <p>房先森互联网家装有别于传统装修公司与其他装修中介平台，以自营模式整合设计师与项目经理，利用互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐 + 个性化定制服务。</p>
+      <p>
+        房先森互联网家装有别于传统装修公司与其他装修中介平台，
+        以自营模式整合设计师与项目经理，利用互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐 + 个性化定制服务。
+      </p>
     </div>
     <div class="phonenumber">
       <div class>
@@ -129,6 +132,7 @@ export default {
 </script>
 <style  scoped>
 .header {
+  border-bottom: .5px solid #eee;
   height: 64px;
   width: 100%;
   display: flex;
@@ -248,7 +252,7 @@ export default {
   font-size: 14px;
 }
 .icon-backtop {
-  font-size: 40px;
+  font-size: 50px;
   color: lightgrey;
   position: absolute;
   top: -10px;
